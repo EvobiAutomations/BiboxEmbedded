@@ -1,0 +1,170 @@
+;#<FEEDBACK># ARM Linker, 5060020: Last Updated: Fri Mar 17 13:04:51 2017
+;VERSION 0.2
+;FILE apds9960.o
+APDS9960_CheckCommunication <= USED 0
+APDS9960_ClearInterrupt <= USED 0
+APDS9960_EnableALSEngine <= USED 0
+APDS9960_EnableGestureSensor <= USED 0
+APDS9960_GestureAvailable <= USED 0
+APDS9960_Initial <= USED 0
+APDS9960_ProcessGestureData <= USED 0
+APDS9960_ReadFIFO <= USED 0
+APDS9960_Read_ALSval <= USED 0
+APDS9960_Select_reg <= USED 0
+APDS9960_enableLightSensor <= USED 0
+APDS9960_enablePower <= USED 0
+APDS9960_getMode <= USED 0
+APDS9960_readAmbientLight <= USED 0
+APDS9960_setAmbientLightIntEnable <= USED 0
+APDS9960_setMode <= USED 0
+__asm___10_apds9960_c_ffeabadf____REV16 <= USED 0
+__asm___10_apds9960_c_ffeabadf____REVSH <= USED 0
+__asm___10_apds9960_c_ffeabadf__nrf_delay_us <= USED 0
+resetGestureParameters <= USED 0
+;FILE app_timer.o
+__asm___11_app_timer_c_cd27f9c3____REV16 <= USED 0
+__asm___11_app_timer_c_cd27f9c3____REVSH <= USED 0
+app_timer_cnt_diff_compute <= USED 0
+app_timer_cnt_get <= USED 0
+app_timer_stop_all <= USED 0
+;FILE arm_startup_nrf51.o
+;FILE ble_advdata.o
+;FILE ble_conn_params.o
+ble_conn_params_change_conn_params <= USED 0
+ble_conn_params_stop <= USED 0
+;FILE ble_debug_assert_handler.o
+__asm___26_ble_debug_assert_handler_c_be844777____REV16 <= USED 0
+__asm___26_ble_debug_assert_handler_c_be844777____REVSH <= USED 0
+ble_debug_assert_handler <= USED 0
+;FILE ble_nus.o
+;FILE ble_srv_common.o
+ble_srv_ascii_to_utf8 <= USED 0
+ble_srv_report_ref_encode <= USED 0
+;FILE main.o
+ADC_DISABLE <= USED 0
+ADC_ENABLE <= USED 0
+ADC_READ <= USED 0
+ADC_RESOLUTION <= USED 0
+BT_REMOTE_READ <= USED 0
+COLOUR_SENSOR_DISABLE <= USED 0
+COLOUR_SENSOR_ENABLE <= USED 0
+COLOUR_SENSOR_READ <= USED 0
+DELAY <= USED 0
+DELAY_US <= USED 0
+ENABLE_PWM <= USED 0
+ENABLE_SERVO <= USED 0
+MOTOR_1 <= USED 0
+MOTOR_2 <= USED 0
+PULSE <= USED 0
+READ_PIN <= USED 0
+SERIAL_AVILABLE <= USED 0
+SERIAL_CONFIG <= USED 0
+SERIAL_PUTC <= USED 0
+SERIAL_PUT_STRING <= USED 0
+SERIAL_READ <= USED 0
+SET_AS_INPUT <= USED 0
+TFT_CLEAR_DISPLAY <= USED 0
+TFT_DISABLE <= USED 0
+TFT_DISPLAY_CHAR <= USED 0
+TFT_DISPLAY_PIXEL <= USED 0
+TFT_DISPLAY_STRING <= USED 0
+TFT_DISPLAY_VARIABLE <= USED 0
+TFT_ENABLE <= USED 0
+WRITE_PWM <= USED 0
+WRITE_SERVO <= USED 0
+__asm___6_main_c_808f58e6____REV16 <= USED 0
+__asm___6_main_c_808f58e6____REVSH <= USED 0
+adc_initial <= USED 0
+read_bat <= USED 0
+uart_evt_callback <= USED 0
+;FILE max7219.o
+Max_7219_Initial <= USED 0
+Max_Display_Data_2X <= USED 0
+__asm___9_max7219_c_b2628634____REV16 <= USED 0
+__asm___9_max7219_c_b2628634____REVSH <= USED 0
+__asm___9_max7219_c_b2628634__nrf_delay_us <= USED 0
+;FILE mfrc522.o
+MFRC522_Read <= USED 0
+MFRC522_SelectTag <= USED 0
+MFRC522_Write <= USED 0
+PCD_Authentication <= USED 0
+Read_Long_MFRC522 <= USED 0
+Separate_hexP1 <= USED 0
+Separate_hexP10 <= USED 0
+Write_MFRC522_Long <= USED 0
+__asm___9_MFRC522_c_cd9d7424____REV16 <= USED 0
+__asm___9_MFRC522_c_cd9d7424____REVSH <= USED 0
+;FILE mma8452.o
+MMA8452_Read_Raw_Values <= USED 0
+MMA8452_Standby_Mode <= USED 0
+__asm___9_mma8452_c_bd6f706e____REV16 <= USED 0
+__asm___9_mma8452_c_bd6f706e____REVSH <= USED 0
+__asm___9_mma8452_c_bd6f706e__nrf_delay_us <= USED 0
+;FILE mp3module.o
+__asm___11_mp3module_c_send_buf____REV16 <= USED 0
+__asm___11_mp3module_c_send_buf____REVSH <= USED 0
+__asm___11_mp3module_c_send_buf__nrf_delay_us <= USED 0
+h_send_func <= USED 0
+mp3_next <= USED 0
+mp3_pause <= USED 0
+mp3_previous <= USED 0
+s_send_func <= USED 0
+;FILE nrf_delay.o
+__asm___11_nrf_delay_c_532987f3____REV16 <= USED 0
+__asm___11_nrf_delay_c_532987f3____REVSH <= USED 0
+;FILE nrf_pwm.o
+__asm___9_nrf_pwm_c_0aea9215____REV16 <= USED 0
+__asm___9_nrf_pwm_c_0aea9215____REVSH <= USED 0
+nrf_pwm_set_max_value <= USED 0
+nrf_pwm_set_values <= USED 0
+;FILE pstorage.o
+__asm___10_pstorage_c_1dab5049____REV16 <= USED 0
+__asm___10_pstorage_c_1dab5049____REVSH <= USED 0
+pstorage_access_status_get <= USED 0
+pstorage_raw_clear <= USED 0
+pstorage_raw_register <= USED 0
+pstorage_raw_store <= USED 0
+pstorage_update <= USED 0
+;FILE simple_uart.o
+__asm___13_simple_uart_c_5dda6715____REV16 <= USED 0
+__asm___13_simple_uart_c_5dda6715____REVSH <= USED 0
+simple_uart_data_available <= USED 0
+simple_uart_get <= USED 0
+simple_uart_putstring <= USED 0
+;FILE soft_spi.o
+__asm___10_soft_spi_c_dc04b528____REV16 <= USED 0
+__asm___10_soft_spi_c_dc04b528____REVSH <= USED 0
+;FILE softdevice_handler.o
+__asm___20_softdevice_handler_c_370b0038____REV16 <= USED 0
+__asm___20_softdevice_handler_c_370b0038____REVSH <= USED 0
+softdevice_handler_sd_disable <= USED 0
+;FILE st7735.o
+ST7735_PutChar4X <= USED 0
+ST7735_Put_String4X <= USED 0
+__asm___8_ST7735_c_FONT____REV16 <= USED 0
+__asm___8_ST7735_c_FONT____REVSH <= USED 0
+__asm___8_ST7735_c_FONT__nrf_delay_us <= USED 0
+clear_display <= USED 0
+;FILE system_nrf51.o
+SystemCoreClockUpdate <= USED 0
+__asm___14_system_nrf51_c_5d646a67____REV16 <= USED 0
+__asm___14_system_nrf51_c_5d646a67____REVSH <= USED 0
+;FILE timeslot.o
+__asm___10_timeslot_c_timeout____REV16 <= USED 0
+__asm___10_timeslot_c_timeout____REVSH <= USED 0
+__asm___10_timeslot_c_timeout__nrf_delay_us <= USED 0
+configure_next_event_normal <= USED 0
+;FILE twi.o
+TWI_Stop <= USED 0
+__asm___5_twi_c_eae92d00____REV16 <= USED 0
+__asm___5_twi_c_eae92d00____REVSH <= USED 0
+__asm___5_twi_c_eae92d00__nrf_delay_us <= USED 0
+;FILE winbond_flash.o
+Winbond_Chip_32kErase <= USED 0
+Winbond_Chip_Erase <= USED 0
+Winbond_Flash_Busy <= USED 0
+Winbond_Read <= USED 0
+Winbond_Write <= USED 0
+Winbond_Write_Enable <= USED 0
+__asm___15_winbond_flash_c_c648f9b3____REV16 <= USED 0
+__asm___15_winbond_flash_c_c648f9b3____REVSH <= USED 0

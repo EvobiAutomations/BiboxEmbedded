@@ -1,0 +1,100 @@
+Dependencies for Project 'blinky', Target 'nrf51822_xxaa (256K)': (DO NOT MODIFY !)
+F (..\main.c)(0x56F24A9F)(--c99 -c --cpu Cortex-M0 -D__EVAL --li -g -O0 --apcs=interwork -I..\..\..\..\Include -I..\arm -I..\..\blinky_example-I "F:\mukesh\WORKS\sdk6test\sdk6wonderbox\nrf51822\Board\nrf6310\winbond flash\arm\RTE"-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.4.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.0.3\Device\Include-D__UVISION_VERSION="516" -D_RTE_ -DNRF51 -DNRF51 -DBOARD_NRF6310-o .\_build\main.o --omf_browse .\_build\main.crf --depend .\_build\main.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x55AF191A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55AF191A)
+I (..\..\..\..\Include\nrf_delay.h)(0x56EB9179)
+I (..\..\..\..\Include\nrf.h)(0x54008B4A)
+I (..\..\..\..\Include\nrf51.h)(0x56EFF33C)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.4.0\CMSIS\Include\core_cm0.h)(0x55D53C2C)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.4.0\CMSIS\Include\core_cmInstr.h)(0x55D44230)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.4.0\CMSIS\Include\cmsis_armcc.h)(0x55D588E2)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.4.0\CMSIS\Include\core_cmFunc.h)(0x55D44230)
+I (..\..\..\..\Include\system_nrf51.h)(0x54008B4A)
+I (..\..\..\..\Include\nrf51_bitfields.h)(0x54008B4A)
+I (..\..\..\..\Include\nrf51_deprecated.h)(0x54008B4A)
+I (..\..\..\..\Include\compiler_abstraction.h)(0x54008B4A)
+I (..\..\..\..\Include\nrf_gpio.h)(0x54008B2B)
+I (..\..\..\..\Include\boards.h)(0x54008B2B)
+I (..\..\..\..\Include\boards/nrf6310.h)(0x54008B2B)
+I (..\ST7735.h)(0x56F0E1C4)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x55AF191A)
+I (..\..\..\..\Include\simple_uart.h)(0x54008B2B)
+I (..\winbond_flash.h)(0x56F24E97)
+F (..\..\..\..\Source\keil_arm_uv4.lnt)(0x54008B2B)()
+F (..\ST7735.c)(0x56F0E1BF)(--c99 -c --cpu Cortex-M0 -D__EVAL --li -g -O0 --apcs=interwork -I..\..\..\..\Include -I..\arm -I..\..\blinky_example-I "F:\mukesh\WORKS\sdk6test\sdk6wonderbox\nrf51822\Board\nrf6310\winbond flash\arm\RTE"-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.4.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.0.3\Device\Include-D__UVISION_VERSION="516" -D_RTE_ -DNRF51 -DNRF51 -DBOARD_NRF6310-o .\_build\st7735.o --omf_browse .\_build\st7735.crf --depend .\_build\st7735.d)
+I (..\ST7735.h)(0x56F0E1C4)
+I (..\..\..\..\Include\nrf_delay.h)(0x56EB9179)
+I (..\..\..\..\Include\nrf.h)(0x54008B4A)
+I (..\..\..\..\Include\nrf51.h)(0x56EFF33C)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.4.0\CMSIS\Include\core_cm0.h)(0x55D53C2C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55AF191A)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.4.0\CMSIS\Include\core_cmInstr.h)(0x55D44230)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.4.0\CMSIS\Include\cmsis_armcc.h)(0x55D588E2)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.4.0\CMSIS\Include\core_cmFunc.h)(0x55D44230)
+I (..\..\..\..\Include\system_nrf51.h)(0x54008B4A)
+I (..\..\..\..\Include\nrf51_bitfields.h)(0x54008B4A)
+I (..\..\..\..\Include\nrf51_deprecated.h)(0x54008B4A)
+I (..\..\..\..\Include\compiler_abstraction.h)(0x54008B4A)
+I (..\..\..\..\Include\nrf_gpio.h)(0x54008B2B)
+F (..\winbond_flash.c)(0x56F24A9D)(--c99 -c --cpu Cortex-M0 -D__EVAL --li -g -O0 --apcs=interwork -I..\..\..\..\Include -I..\arm -I..\..\blinky_example-I "F:\mukesh\WORKS\sdk6test\sdk6wonderbox\nrf51822\Board\nrf6310\winbond flash\arm\RTE"-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.4.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.0.3\Device\Include-D__UVISION_VERSION="516" -D_RTE_ -DNRF51 -DNRF51 -DBOARD_NRF6310-o .\_build\winbond_flash.o --omf_browse .\_build\winbond_flash.crf --depend .\_build\winbond_flash.d)
+I (..\winbond_flash.h)(0x56F24E97)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x55AF191A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55AF191A)
+I (..\..\..\..\Include\nrf_gpio.h)(0x54008B2B)
+I (..\..\..\..\Include\nrf51.h)(0x56EFF33C)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.4.0\CMSIS\Include\core_cm0.h)(0x55D53C2C)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.4.0\CMSIS\Include\core_cmInstr.h)(0x55D44230)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.4.0\CMSIS\Include\cmsis_armcc.h)(0x55D588E2)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.4.0\CMSIS\Include\core_cmFunc.h)(0x55D44230)
+I (..\..\..\..\Include\system_nrf51.h)(0x54008B4A)
+I (..\..\..\..\Include\nrf51_bitfields.h)(0x54008B4A)
+I (..\..\..\..\Include\nrf_delay.h)(0x56EB9179)
+I (..\..\..\..\Include\nrf.h)(0x54008B4A)
+I (..\..\..\..\Include\nrf51_deprecated.h)(0x54008B4A)
+I (..\..\..\..\Include\compiler_abstraction.h)(0x54008B4A)
+F (..\..\..\..\Source\simple_uart\simple_uart.c)(0x55F6C768)(--c99 -c --cpu Cortex-M0 -D__EVAL --li -g -O0 --apcs=interwork -I..\..\..\..\Include -I..\arm -I..\..\blinky_example-I "F:\mukesh\WORKS\sdk6test\sdk6wonderbox\nrf51822\Board\nrf6310\winbond flash\arm\RTE"-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.4.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.0.3\Device\Include-D__UVISION_VERSION="516" -D_RTE_ -DNRF51 -DNRF51 -DBOARD_NRF6310-o .\_build\simple_uart.o --omf_browse .\_build\simple_uart.crf --depend .\_build\simple_uart.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55AF191A)
+I (..\..\..\..\Include\nrf.h)(0x54008B4A)
+I (..\..\..\..\Include\nrf51.h)(0x56EFF33C)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.4.0\CMSIS\Include\core_cm0.h)(0x55D53C2C)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.4.0\CMSIS\Include\core_cmInstr.h)(0x55D44230)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.4.0\CMSIS\Include\cmsis_armcc.h)(0x55D588E2)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.4.0\CMSIS\Include\core_cmFunc.h)(0x55D44230)
+I (..\..\..\..\Include\system_nrf51.h)(0x54008B4A)
+I (..\..\..\..\Include\nrf51_bitfields.h)(0x54008B4A)
+I (..\..\..\..\Include\nrf51_deprecated.h)(0x54008B4A)
+I (..\..\..\..\Include\compiler_abstraction.h)(0x54008B4A)
+I (..\..\..\..\Include\simple_uart.h)(0x54008B2B)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x55AF191A)
+I (..\..\..\..\Include\nrf_delay.h)(0x56EB9179)
+I (..\..\..\..\Include\nrf_gpio.h)(0x54008B2B)
+F (..\..\..\..\Source\nrf_delay\nrf_delay.c)(0x54008B2B)(--c99 -c --cpu Cortex-M0 -D__EVAL --li -g -O0 --apcs=interwork -I..\..\..\..\Include -I..\arm -I..\..\blinky_example-I "F:\mukesh\WORKS\sdk6test\sdk6wonderbox\nrf51822\Board\nrf6310\winbond flash\arm\RTE"-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.4.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.0.3\Device\Include-D__UVISION_VERSION="516" -D_RTE_ -DNRF51 -DNRF51 -DBOARD_NRF6310-o .\_build\nrf_delay.o --omf_browse .\_build\nrf_delay.crf --depend .\_build\nrf_delay.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x55AF191A)
+I (..\..\..\..\Include\compiler_abstraction.h)(0x54008B4A)
+I (..\..\..\..\Include\nrf.h)(0x54008B4A)
+I (..\..\..\..\Include\nrf51.h)(0x56EFF33C)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.4.0\CMSIS\Include\core_cm0.h)(0x55D53C2C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55AF191A)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.4.0\CMSIS\Include\core_cmInstr.h)(0x55D44230)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.4.0\CMSIS\Include\cmsis_armcc.h)(0x55D588E2)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.4.0\CMSIS\Include\core_cmFunc.h)(0x55D44230)
+I (..\..\..\..\Include\system_nrf51.h)(0x54008B4A)
+I (..\..\..\..\Include\nrf51_bitfields.h)(0x54008B4A)
+I (..\..\..\..\Include\nrf51_deprecated.h)(0x54008B4A)
+I (..\..\..\..\Include\nrf_delay.h)(0x56EB9179)
+F (RTE\Device\nRF51822_xxAA\arm_startup_nrf51.s)(0x557E6090)(--cpu Cortex-M0 --li --pd "__EVAL SETA 1" -g --apcs=interwork -I "F:\mukesh\WORKS\sdk6test\sdk6wonderbox\nrf51822\Board\nrf6310\winbond flash\arm\RTE"-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.4.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.0.3\Device\Include--pd "__UVISION_VERSION SETA 516" --pd "_RTE_ SETA 1" --pd "NRF51 SETA 1"--list .\_build\arm_startup_nrf51.lst --xref -o .\_build\arm_startup_nrf51.o --depend .\_build\arm_startup_nrf51.d)
+F (RTE\Device\nRF51822_xxAA\system_nrf51.c)(0x557E6090)(--c99 -c --cpu Cortex-M0 -D__EVAL --li -g -O0 --apcs=interwork -I..\..\..\..\Include -I..\arm -I..\..\blinky_example-I "F:\mukesh\WORKS\sdk6test\sdk6wonderbox\nrf51822\Board\nrf6310\winbond flash\arm\RTE"-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.4.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.0.3\Device\Include-D__UVISION_VERSION="516" -D_RTE_ -DNRF51 -DNRF51 -DBOARD_NRF6310-o .\_build\system_nrf51.o --omf_browse .\_build\system_nrf51.crf --depend .\_build\system_nrf51.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55AF191A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x55AF191A)
+I (..\..\..\..\Include\nrf.h)(0x54008B4A)
+I (..\..\..\..\Include\nrf51.h)(0x56EFF33C)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.4.0\CMSIS\Include\core_cm0.h)(0x55D53C2C)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.4.0\CMSIS\Include\core_cmInstr.h)(0x55D44230)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.4.0\CMSIS\Include\cmsis_armcc.h)(0x55D588E2)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.4.0\CMSIS\Include\core_cmFunc.h)(0x55D44230)
+I (..\..\..\..\Include\system_nrf51.h)(0x54008B4A)
+I (..\..\..\..\Include\nrf51_bitfields.h)(0x54008B4A)
+I (..\..\..\..\Include\nrf51_deprecated.h)(0x54008B4A)
+I (..\..\..\..\Include\compiler_abstraction.h)(0x54008B4A)
+F (RTE\Device\nRF51822_xxAB\arm_startup_nrf51.s)(0x557E6090)()
+F (RTE\Device\nRF51822_xxAB\system_nrf51.c)(0x557E6090)()

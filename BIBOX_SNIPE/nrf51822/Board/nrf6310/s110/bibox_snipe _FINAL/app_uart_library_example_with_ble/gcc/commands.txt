@@ -1,0 +1,36 @@
+
+
+"C:\Program Files (x86)\GNU Tools ARM Embedded\5.2 2015q4/bin/arm-none-eabi-gcc" -DDEBUG_NRF_USER -DBLE_STACK_SUPPORT_REQD -DS110 -ffunction-sections -mcpu=cortex-m0 -mthumb -mabi=aapcs -DNRF51 -DBOARD_PCA10001 -DNRF51822_QFAA_CA --std=gnu99 -Wall -Werror -mfloat-abi=soft -DDEBUG -g3 -O0 -I"../" -I"F:/mukesh/TASKS/sdk6withdisplay/nrf51822/Include/s110" -I"F:/mukesh/TASKS/sdk6withdisplay/nrf51822/Include/ble" -I"F:/mukesh/TASKS/sdk6withdisplay/nrf51822/Include/ble/device_manager" -I"F:/mukesh/TASKS/sdk6withdisplay/nrf51822/Include/ble/ble_services" -I"F:/mukesh/TASKS/sdk6withdisplay/nrf51822/Include/app_common" -I"F:/mukesh/TASKS/sdk6withdisplay/nrf51822/Include/sd_common" -I"F:/mukesh/TASKS/sdk6withdisplay/nrf51822/Board/nrf6310/s110/bibox_hornbill/app_uart_library_example_with_ble/arm" -I"../" -I"F:/mukesh/TASKS/sdk6withdisplay/nrf51822/Include" -I"F:/mukesh/TASKS/sdk6withdisplay/nrf51822/Include/gcc" -I"F:/mukesh/TASKS/sdk6withdisplay/nrf51822/Include/ext_sensors" -M ../main.c -MF "_build/main.d" -MT _build/main.o
+
+
+"C:\Program Files (x86)\GNU Tools ARM Embedded\5.2 2015q4/bin/arm-none-eabi-gcc" -DDEBUG_NRF_USER -DBLE_STACK_SUPPORT_REQD -DS110 -ffunction-sections -mcpu=cortex-m0 -mthumb -mabi=aapcs -DNRF51 -DBOARD_PCA10001 -DNRF51822_QFAA_CA --std=gnu99 -Wall -Werror -mfloat-abi=soft -DDEBUG -g3 -O0 -I"../" -I"F:/mukesh/TASKS/sdk6withdisplay/nrf51822/Include/s110" -I"F:/mukesh/TASKS/sdk6withdisplay/nrf51822/Include/ble" -I"F:/mukesh/TASKS/sdk6withdisplay/nrf51822/Include/ble/device_manager" -I"F:/mukesh/TASKS/sdk6withdisplay/nrf51822/Include/ble/ble_services" -I"F:/mukesh/TASKS/sdk6withdisplay/nrf51822/Include/app_common" -I"F:/mukesh/TASKS/sdk6withdisplay/nrf51822/Include/sd_common" -I"F:/mukesh/TASKS/sdk6withdisplay/nrf51822/Board/nrf6310/s110/bibox_hornbill/app_uart_library_example_with_ble/arm" -I"../" -I"F:/mukesh/TASKS/sdk6withdisplay/nrf51822/Include" -I"F:/mukesh/TASKS/sdk6withdisplay/nrf51822/Include/gcc" -I"F:/mukesh/TASKS/sdk6withdisplay/nrf51822/Include/ext_sensors" -c -o _build/main.o ../main.c
+
+
+"C:\Program Files (x86)\GNU Tools ARM Embedded\5.2 2015q4/bin/arm-none-eabi-gcc" -Wl,--gc-sections --specs=nano.specs -Xlinker -Map=_build/bibox_s110_xxaa.map -mcpu=cortex-m0 -mthumb -mabi=aapcs -L F:/mukesh/TASKS/sdk6withdisplay/nrf51822/Source//templates/gcc/ -Tgcc_nrf51_s110_xxaa.ld  _build/main.o _build/ble_srv_common.o _build/ble_nus.o _build/ble_advdata.o _build/ble_conn_params.o _build/softdevice_handler.o _build/app_timer.o _build/app_gpiote.o _build/ble_debug_assert_handler.o _build/nrf_delay.o _build/pstorage.o _build/nrf_pwm.o _build/ST7735.o _build/winbond_flash.o _build/simple_uart.o _build/MFRC522.o _build/soft_spi.o_build/max7219.o _build/system_nrf51.o _build/gcc_startup_nrf51.o  -o _build/bibox_s110_xxaa.out
+
+
+
+"C:\Program Files (x86)\GNU Tools ARM Embedded\5.2 2015q4/bin/arm-none-eabi-objcopy" -O binary _build/bibox_s110_xxaa.out _build/bibox_s110_xxaa.bin
+
+"C:\Program Files (x86)\GNU Tools ARM Embedded\5.2 2015q4/bin/arm-none-eabi-objcopy" -O ihex _build/bibox_s110_xxaa.out _build/bibox_s110_xxaa.hex
+
+
+
+
+
+
+
+
+
+
+
+"C:\Program Files (x86)\GNU Tools ARM Embedded\5.2 2015q4/bin/arm-none-eabi-gcc" -Wl,--gc-sections --specs=nano.specs -Xlinker -Map=_build/bibox_s110_xxaa.map -mcpu=cortex-m0 -mthumb -mabi=aapcs -L F:/mukesh/TASKS/sdk6withdisplay/nrf51822//Source//templates/gcc/ -Tgcc_nrf51_s110_xxaa.ld  _build/main.o _build/ble_srv_common.o _build/ble_nus.o _build/ble_advdata.o _build/ble_conn_params.o _build/softdevice_handler.o _build/app_timer.o _build/app_gpiote.o _build/ble_debug_assert_handler.o _build/nrf_delay.o _build/pstorage.o _build/nrf_pwm.o _build/ST7735.o _build/winbond_flash.o _build/simple_uart.o _build/MFRC522.o _build/soft_spi.o_build/max7219.o _build/system_nrf51.o _build/gcc_startup_nrf51.o  -o _build/bibox_s110_xxaa.out
+
+
+"C:\Program Files (x86)\GNU Tools ARM Embedded\5.2 2015q4/bin/arm-none-eabi-objc
+opy" -O binary _build/bibox_s110_xxaa.out _build/bibox_s110_xxaa.bin
+"C:\Program Files (x86)\GNU Tools ARM Embedded\5.2 2015q4/bin/arm-none-eabi-objc
+opy" -O ihex _build/bibox_s110_xxaa.out _build/bibox_s110_xxaa.hex
+
+F:\mukesh\TASKS\sdk6withdisplay\nrf51822\Board\nrf6310\s110\bibox_hornbill\app_u
+art_library_example_with_ble\gcc>

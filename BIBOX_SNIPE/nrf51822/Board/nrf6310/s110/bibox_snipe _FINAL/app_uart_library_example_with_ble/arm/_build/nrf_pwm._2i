@@ -1,0 +1,6 @@
+-c --cpu Cortex-M0 -D__MICROLIB --li -g -O0 --apcs=interwork --enum_is_int -I.. -I..\..\..\..\..\..\Include -I..\..\..\..\..\..\Include\app_common -I..\..\..\..\..\..\Include\ble -I..\..\..\..\..\..\Include\ble\ble_services -I..\..\..\..\..\..\Include\s110 -I..\..\..\..\..\..\Include\sd_common -I..\arm --c99
+-I F:\mukesh\TASKS\sdk6withdisplay\nrf51822\Board\nrf6310\s110\bibox_hornbill\app_uart_library_example_with_ble\arm\RTE
+-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.0.3\Device\Include
+-I C:\Keil_v5\ARM\CMSIS\Include
+-D__UVISION_VERSION="516" -DNRF51 -DBOARD_PCA10001 -DNRF51 -DDEBUG_NRF_USER -DBLE_STACK_SUPPORT_REQD
+-o .\_build\nrf_pwm.o --omf_browse .\_build\nrf_pwm.crf --depend .\_build\nrf_pwm.d --feedback ".\_build\bibox_horbill_3_1_4.fed" "nrf_pwm.c"
