@@ -4,13 +4,23 @@ Copyright (c) 2018 EvobiAutomations
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+in the Software with restrictions, including without limitation the rights
+to use, copy and modify, subject to the following conditions:
 
 The above copyright notice and this permission notice shall be included in all
 copies or substantial portions of the Software.
+
+ALL BIBOX SOFTWARE / FIRMWARE / PCB DESIGN FILES ARE THE COPYRIGHTED WORK OF 
+"EVOBI AUTOMATIONS PVT LTD". EVOBI AUTOMATIONS PVT LTD HAS MADE AVAILABLE THESE 
+FILES WITHOUT A LICENSE AGREEMENT, WHICH YOU MAY USE ONLY TO DESIGN, DEVELOP 
+AND TEST YOUR PROGRAMS ON THE PRODUCTS AND SERVICES, THAT WE PROVIDE. 
+UNLESS YOU HAVE A VALID LICENSE AGREEMENT WITH EVOBI AUTOMATIONS PVT LTD
+THAT ENTITLES YOU TO DO SO, YOU MAY NOT RESELL, SUBLICENSE, OR RE-DISTRIBUTE 
+ANY BIBOX SOFTWARE / FIRMWARE / PCB DESIGN FILES.
+
+ANY RE-SELL, RE-DISTRIBUTE, SUB-LICENSE, COMMERCIALIZATION OF ANY OF THE PRODUCTS
+OR SOURCE CODES IN ANY FORM OF EVOBI AUTOMATIONS PVT LTD, NEEDS PRIOR
+PERMISSION TO BE TAKEN FROM OUR TEAM, VIA EMAIL AT SALES@BIBOX.IN / SUPPORT@BIBOX.IN.
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
 IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
